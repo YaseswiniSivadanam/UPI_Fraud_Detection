@@ -49,7 +49,7 @@ transaction_types = {
 # Horizontal navigation menu
 selected = option_menu(
     menu_title=None,
-    options=["Single Prediction", "Batch Prediction"],
+    options=[ "Batch Prediction", "Single Prediction"],
     default_index=0,
     orientation="horizontal",
 )
